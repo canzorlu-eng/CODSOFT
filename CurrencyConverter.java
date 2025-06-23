@@ -39,7 +39,7 @@ public class CurrencyConverter {
             JSONObject obj=new JSONObject(response.toString());
             BigDecimal result=obj.getBigDecimal("result");
             System.out.println("*******");
-            System.out.println(result);
+            System.out.println(result+" "+target);
         }
         else System.out.println("FAİLED");
 
